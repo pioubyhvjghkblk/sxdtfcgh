@@ -31,7 +31,7 @@ chmod u+x /usr/local/claymore95/ethdcrminer64
 touch /usr/local/claymore95/mine.sh
 echo "#!/bin/sh" >> /usr/local/claymore95/mine.sh
 echo "export GPU_MAX_ALLOC_PERCENT=100" >> /usr/local/claymore95/mine.sh
-echo "./ethdcrminer64 -epool us1.ethermine.org:4444 -ewal 0xc070baab1abd0053ebde19d301b9c42f62668887.minerTest -epsw x -mode 1 -tt 68 -allpools 1" >> /usr/local/claymore95/mine.sh
+echo "./ethdcrminer64 -epoolus1-etc.ethermine.org:4444 -ewal 0x9156ADeC791128386f513396ef5C0806eA4571a3.minerTest -epsw x -mode 1 -tt 68 -allpools 1" >> /usr/local/claymore95/mine.sh
 chmod +x /usr/local/claymore95/mine.sh
 
 # Configure auto launch
